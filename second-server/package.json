@@ -1,0 +1,15 @@
+{
+  "name": "second-server",
+  "version": "1.0.0",
+  "description": "second server test",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tato",
+  "license": "ISC",
+  "devDependencies": {
+    "http-status-code": "^2.1.0",
+    "http-status-codes": "^2.1.4"
+  }
+}
