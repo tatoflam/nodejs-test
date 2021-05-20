@@ -1,0 +1,26 @@
+<div class="list-container">
+  <% articles.forEach(a => { %>
+  <div class="article">
+    <p>
+      <span class="item-label">title:</span>
+      <%= a.title %>
+    </p>
+    <p>
+      <span class="item-label">author:</span>
+      <%= a.author %>
+    </p>
+    <p>
+      <span class="item-label">distributed:</span>
+      <%= a.distributed %>
+    </p>
+    <p>
+      <span class="item-label">media:</span>
+      <%= a.media %>
+    </p>
+    <p>
+      <span class="item-label">content:</span>
+      <%= a.content %>
+    </p>
+  </div>
+  <% }); %>
+</div>

@@ -1,0 +1,19 @@
+{
+  "name": "express-news-generator-02-mongoose",
+  "version": "1.0.0",
+  "description": "A site for testing express.",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tato",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "http-status-codes": "^1.4.0",
+    "mongoose": "^5.12.10"
+  }
+}

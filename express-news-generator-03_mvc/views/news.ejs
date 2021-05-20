@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="col-sm-6">
+    <img src="images/fruit.jpg" alt="">
+  </div>
+  <div class="col-sm-6">
+    <h1 class="title">News title 1</h1>
+    <h1>Latest Tokyo news</h1>
+    <% offeredCourses.forEach(news => { %>
+    <h5>
+      <%= news.title %>
+    </h5>
+    <span>$
+      <%= news.content %> </span>
+    <% }); %>
+  </div>
+</div>
